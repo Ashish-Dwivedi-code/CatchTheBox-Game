@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: rgb(79, 138, 131);
+}
+
+h1 {
+    color:black;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#gameArea {
+    width: 600px;
+    height: 400px;
+    border: 3px solid black;
+    margin: 20px auto;
+    position: relative;
+    background: white;
+    overflow: hidden;
+}
+
+#box {
+    width: 50px;
+    height: 50px;
+    background: blue;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#gameOver {
+    color: rgb(88, 8, 8);
+    font-size: 30px;
+}
